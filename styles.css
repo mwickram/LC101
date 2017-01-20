@@ -1,0 +1,56 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+
+header{
+    margin: 25px 500px 0px 50px;
+}
+#headerfirst{
+    color:black;
+}
+
+body{ 
+	color:blue; 
+	margin: 0; 
+	padding: 0;
+}
+
+p{ 
+	text-align: justify;
+    color:blue;
+    /*border: 1px solid powderblue;*/
+    margin: 25px 500px 0px 50px;
+}
+
+#plane{
+    width:280px;
+    height:214px;
+}
+
+img {
+    margin: 25px 500px 0px 50px;
+    /*border: 1px solid powderblue;*/
+}
+/*
+.firstblock{
+    display: inline-block;
+}
+
+.secondblock{
+    display: inline-block;
+}
+
+.thirdblock{
+    display: inline-block;
+}
+*/
+#footer{
+    margin: 20px 500px 0px 0px;
+    color:black;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}

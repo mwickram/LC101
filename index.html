@@ -1,22 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="eng">
     <head>
-        <title>Mahesh Imaduwa-Blog</title>
-        <style>
-        img {
-        width:100%;
-        }
-        </style>
+        <title>Mahesh Imaduwa-Blog</title> 
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="styles.css">
     </head>
     <body>
-        <header>
+        <main>
+        <header id="headerfirst">
               <h1>LC101-Mahesh Imaduwa's Blog</h1>
         </header>
+
     <article>
         <header>
             <h2>Japanese Bomb</h2>
-        </header>
-        <p> 
+        </header> 
+        <p class="firstblock">  
             My grandpa was a Buddhist monk before he became a policeman 
             during the British rule in Burma (Myanmar).
             He took robes willingly when he was a little boy and 
@@ -24,16 +24,18 @@
             As a young monk, he went on a missionary trip to Burma.
             However, he decided to end his monastic life for some reason .
         </p>
-         <img src=images/buddhistmonk.jpg alt="buddhist monk" style="width:320px;height:214px"> 
-         <p>
+         <img  class="firstblock" src="images/buddhistmonk.jpg" alt="buddhist monk"> 
+
+         <p class="secondblock">
             During the World War II, he was in Burma as a policeman 
             serving for the British empire. His loyalty and the strong 
             commitment to keeping law and order made him popular in his 
             community and among his superiors. Grandpa had told my mom 
             that there were articles about him in newspapers.
-        </p>       
-        <img src=images/fighterplane.jpg alt="fighter_plane" style="width:320px;height:214px;">
-        <p>
+        </p>   
+        <img class="secondblock" id="plane" src="images/fighterplane.jpg" alt="fighter_plane">
+
+        <p class="thirdblock">
             One day, he was in a social gathering with fellow officers
             in a hotel, chilling with friends around a round-table.
             Those days, Japanese emperor was fiercely expanding 
@@ -55,7 +57,8 @@
             But he was too late. Japanese bombs smashed the hotel to the ground in next few minute. 
             He had a wound from shrapnel.
         </p>
-        <img src=images/angel.jpg alt="angel" style="width:320px;height:214px;">
+        <img class="thirdblock" src="images/angel.jpg" alt="angel">
+
         <p>
             Grandpa believed the force that saved him was his father who was a devoted Buddhist.
             My great grandpa was the chief of a town called Galigamuwa in Sri Lanka. 
@@ -65,9 +68,13 @@
             his death and protected him from the Japanese bomb.
         </p>
     </article>
-    <footer>
-        &copy; 2017 Mahesh Imaduwa | St. Louis, MO | imahesh@gmail.com
+    <footer id="footer">
+        &copy; 2017 Mahesh Imaduwa
+        <button type="button"> <a href="htttp://www.gmail.com"> Email me</a></button> 
+        <button type="button"> <a href="htttp://www.facebook.com"> Facebook </a></button>  
+
     </footer>
+        </main>
     </body>
 	
 </html>
